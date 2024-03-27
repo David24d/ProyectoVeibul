@@ -1,38 +1,71 @@
-.App {
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
   text-align: center;
+  background-color: #F5EBE0; /* Fondo blanco */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.franja-negra {
+  background-color: #000000; /* Franja negra */
+  color: #ffffff; /* Texto blanco */
+  padding: 10px;
+  width: 100%;
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
+  background-color: #000000; /* Color de fondo de la barra de navegación */
+  color: #ffffff; /* Color del texto de la barra de navegación */
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px; /* Ajuste de espacio superior */
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  margin: 0 20px; /* Espacio entre enlaces de la barra de navegación */
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'High Tower Text', serif;
+  text-align: center; /* Centra el texto */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-container {
+  float: right; /* Alinea los iconos a la derecha */
+  margin-top: 10px; /* Espacio superior reducido */
+  margin-right: 20px; /* Espacio derecho */
+}
+
+.carrito-icon,
+.buscador-icon,
+.fa-user {
+  font-size: 24px; /* Tamaño del icono */
+  color: #000000; /* Color del icono */
+  margin-left: 10px; /* Espacio entre los iconos */
+}
+
+.full-width {
+  width: 100%; /* Asegura que la imagen ocupe el ancho completo */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.button {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
